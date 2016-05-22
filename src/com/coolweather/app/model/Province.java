@@ -1,32 +1,31 @@
 package com.coolweather.app.model;
-/**
- * 创建Province实体类
- * @author WadeWayn
- *
- */
+
 public class Province {
-	
 	private int id;
 	private String provinceName;
 	private String provinceCode;
-	
-	public int getId() {
+
+	public int getid() {
 		return id;
 	}
-	public void setId(int id) {
+
+	public void setid(int id) {
 		this.id = id;
 	}
-	public String getProvinceName() {
+
+	public String getprovinceName() {
 		return provinceName;
 	}
-	public void setProvinceName(String provinceName) {
-		this.provinceName = provinceName;
+
+	public void setprovinceName(String provincename) {
+		this.provinceName = provincename;
 	}
-	public String getProvinceCode() {
+
+	public String getprovinceCode() {
 		return provinceCode;
 	}
-	public void setProvinceCode(String provinceCode) {
+
+	public void setprovinceCode(String provinceCode) {
 		this.provinceCode = provinceCode;
 	}
-	 
 }
