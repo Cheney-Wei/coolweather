@@ -109,5 +109,20 @@
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#27A5F9" >
+  
+        <LinearLayout
+            android:id="@+id/adLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>
